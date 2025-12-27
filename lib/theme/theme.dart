@@ -27,19 +27,19 @@ final TextTheme appTextTheme = TextTheme(
 final ThemeData lightTheme = ThemeData(
   useMaterial3: true,
   colorScheme: ColorScheme.fromSeed(
-    seedColor: Colors.deepPurple,
+    seedColor: Colors.blue,
     brightness: Brightness.light,
   ),
   textTheme: appTextTheme,
   appBarTheme: AppBarTheme(
-    backgroundColor: Colors.deepPurple,
+    backgroundColor: Colors.blue,
     foregroundColor: Colors.white,
     titleTextStyle: GoogleFonts.oswald(fontSize: 24, fontWeight: FontWeight.bold),
   ),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       foregroundColor: Colors.white,
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: Colors.blue,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
       padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
       textStyle: GoogleFonts.roboto(fontSize: 16, fontWeight: FontWeight.w500),
@@ -50,7 +50,7 @@ final ThemeData lightTheme = ThemeData(
 final ThemeData darkTheme = ThemeData(
   useMaterial3: true,
   colorScheme: ColorScheme.fromSeed(
-    seedColor: Colors.deepPurple,
+    seedColor: Colors.blue,
     brightness: Brightness.dark,
   ),
   textTheme: appTextTheme,
@@ -62,7 +62,7 @@ final ThemeData darkTheme = ThemeData(
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       foregroundColor: Colors.black,
-      backgroundColor: Colors.deepPurple.shade200,
+      backgroundColor: Colors.blue.shade200,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
       padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
       textStyle: GoogleFonts.roboto(fontSize: 16, fontWeight: FontWeight.w500),

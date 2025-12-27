@@ -2,9 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:myapp/layout/persistent_layout.dart';
+import 'package:myapp/screens/calculator_screen.dart';
 import 'package:myapp/screens/compendium_screen.dart';
 import 'package:myapp/screens/dashboard_screen.dart';
-import 'package:myapp/screens/dose_calculator_screen.dart';
 import 'package:myapp/screens/interactions_screen.dart';
 
 final _rootNavigatorKey = GlobalKey<NavigatorState>();
@@ -26,7 +26,7 @@ final router = GoRouter(
         ),
         GoRoute(
           path: '/calculator',
-          builder: (context, state) => const DoseCalculatorScreen(),
+          builder: (context, state) => const CalculatorScreen(),
         ),
         GoRoute(
           path: '/compendium',

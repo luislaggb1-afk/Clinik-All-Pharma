@@ -18,6 +18,11 @@ class PersistentLayout extends StatelessWidget {
             end: Alignment.bottomRight,
             colors: [Colors.blue, Colors.purple],
           ),
+          image: DecorationImage(
+            image: AssetImage('assets/images/noise.png'),
+            fit: BoxFit.cover,
+            opacity: 0.1,
+          ),
         ),
         child: Stack(
           children: [
@@ -37,6 +42,11 @@ class PersistentLayout extends StatelessWidget {
                         Text(
                           'DoseCare', // App name
                           style: TextStyle(color: Colors.white, fontSize: 18),
+                        ),
+                        SizedBox(width: 16),
+                        Text(
+                          'Hello!',
+                          style: TextStyle(color: Colors.white, fontSize: 16),
                         ),
                       ],
                     ),
