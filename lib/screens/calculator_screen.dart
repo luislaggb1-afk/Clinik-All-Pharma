@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:myapp/widgets/glass_container.dart';
+import 'package:clinik_all_pharma/widgets/glass_container.dart';
 
 class CalculatorScreen extends StatefulWidget {
   const CalculatorScreen({super.key});

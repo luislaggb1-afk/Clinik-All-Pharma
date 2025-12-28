@@ -1,11 +1,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:myapp/layout/persistent_layout.dart';
-import 'package:myapp/screens/calculator_screen.dart';
-import 'package:myapp/screens/compendium_screen.dart';
-import 'package:myapp/screens/dashboard_screen.dart';
-import 'package:myapp/screens/interactions_screen.dart';
+import 'package:clinik_all_pharma/layout/persistent_layout.dart';
+import 'package:clinik_all_pharma/screens/calculator_screen.dart';
+import 'package:clinik_all_pharma/screens/compendium_screen.dart';
+import 'package:clinik_all_pharma/screens/dashboard_screen.dart';
+import 'package:clinik_all_pharma/screens/interactions_screen.dart';
 
 final _rootNavigatorKey = GlobalKey<NavigatorState>();
 final _shellNavigatorKey = GlobalKey<NavigatorState>();

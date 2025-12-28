@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:myapp/router/router.dart';
-import 'package:myapp/theme/theme.dart';
+import 'package:clinik_all_pharma/router/router.dart';
+import 'package:clinik_all_pharma/theme/theme.dart';
 import 'package:provider/provider.dart';
 
 void main() {

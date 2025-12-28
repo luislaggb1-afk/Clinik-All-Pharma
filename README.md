@@ -1,6 +1,6 @@
-# myapp
+# Clinik All Pharma
 
-A new Flutter project.
+Medical all-in-one tool for healthcare professionals with dose calculator, pharmacological compendium, drug interaction checker, and dashboard.
 
 ## Getting Started
 
