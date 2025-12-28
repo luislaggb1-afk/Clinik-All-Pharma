@@ -1,11 +1,11 @@
 {
-    "name": "myapp",
-    "short_name": "myapp",
+    "name": "Clinik All Pharma",
+    "short_name": "Clinik",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Medical all-in-one tool for healthcare professionals with dose calculator, pharmacological compendium, drug interaction checker, and dashboard.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
